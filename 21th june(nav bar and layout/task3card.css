@@ -1,0 +1,92 @@
+.container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+    }
+
+    .cardwrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      width: 80%;
+      height: 75%;
+      border: 2px solid black;
+    }
+
+    .card {
+      width: 380px;
+      height: 520px;
+      background-color: white;
+      border: 1.5px solid black;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+      text-align: center;
+      
+    }
+  .insideCard{
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+    .logo i {
+      font-size: 80px;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .heading {
+      font-size: 40px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: black;
+      margin-top:40px;
+    }
+
+    .text {
+      font-size: 21px;
+      font-weight: 900;
+      color: #333;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+
+    .read {
+        
+        height: 60px;
+      background-color: black;
+      color: white;
+  
+      border-radius: 25px;
+    margin-top: 35px;
+      width: 80%;
+      font-size: 25px;
+      font-weight:200;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .Instaread{
+         
+        height: 60px;
+      background-color:white;
+      color:plum;
+      border-radius: 25px;
+    margin-top: 35px;
+      width: 80%;
+      font-size: 25px;
+      font-weight:200;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }

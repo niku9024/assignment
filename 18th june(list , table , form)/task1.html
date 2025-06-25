@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18th june(list,table,form)</title>
+</head>
+<body>
+    <form style="border: 5px;">
+        <fieldset>
+            <h1 align="center">Personal Details</h1>
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" name="Username" id="name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="pass" id="password">
+            <br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gen">
+            <label for="gen">Female</label>
+            <br>
+            <label for="contact">Contact:</label>
+            <input type="tel" name="" id="">
+            <br>
+            <h1 align="center">Educational Qualification</h1>
+            <label for="deg">Degree:</label>
+            <select >
+                <option value="sg">--Select group</option>
+                <option value="betch">Btech</option>
+                <option value="bca">Bca</option>
+                <option value="bcom">Bcom</option>
+            </select>
+            <br>
+            <label for="engg">Engineering: </label>
+            <select >
+                <option value="sg">--Select group</option>
+                <option value="EE">Electrical Engg</option>
+                <option value="CSE">CSE</option>
+                <option value="ME">Mechanical Engg</option>
+            </select>
+            <br>
+            <label for="hobb">Hobbies:</label>
+            <input type="checkbox" name="chess" id="chess"> <label for="chess">Playing chess</label>
+           <input type="checkbox" name="books" id="books"><label for="books">Reading Books  </label>
+           <br>
+           <h1 align="center">Address</h1>
+         <textarea cols="50" rows="10"></textarea>
+         <br>
+         <label for="File">Attach Resume: </label>
+         <input type="file" name="file" id="file">
+         <br>
+         <button>SUBMIT</button>
+        </fieldset>
+    </form>
+   <!-- task2 table -->
+    <br><br><hr><hr><hr>
+
+     <table border="3" width="650" cellspacing="0">
+      
+        <thead>
+            <tr>
+                <td>
+                    Day/Period
+                </td>
+                <td>I <br> 9:30-10:20</td>
+                <td>II <br>10:20-11:10</td>
+                <td>III <br>11:10-12:00</td>
+                <td>12:00-12:40</td>
+                <td>IV  <br>12:40-1:30</td>
+                <td>V <br>1:30-2:20</td>
+                <td>VI <br>2:20-3:10</td>
+                <td>VII <br>3:10-4:00</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <th>Monday</th>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+               <td rowspan="6">Lunch</td>
+                <td colspan="3">Lab</td>
+                <td>Phy</td>
+            </tr>
+            
+            <tr align="center">
+                <th>Tuesday</th>
+                <td colspan="3">Lab</td>
+                <td>Eng</td>
+                <td>Che</td>
+            
+                <td>Mat</td>
+                <td>Sports</td>
+            </tr>
+            
+            <tr align="center">
+                <th>Wednesday</th>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                
+                <td>Che</td>
+                <td colspan="3">Library</td>
+            </tr>
+            
+            <tr align="center">
+                <th>Thursday</th>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+           
+                <td colspan="3">Lab</td>
+                <td>Mat</td>
+            </tr>
+            
+            <tr align="center">
+                <th>Friday</th>
+                <td colspan="3">Lab</td>
+                <td>Mat</td>
+                <td>Che</td>
+            
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            
+            <tr align="center">
+                <th>Saturday</th>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+          
+                <td colspan="3">Seminar</td>
+                <td>Sports</td>
+            </tr>
+        </tbody>
+     </table>
+     <hr><hr><hr><hr>
+     <hr><br>
+</body>
+</html>

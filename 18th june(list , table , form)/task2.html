@@ -1,0 +1,155 @@
+<!-- Objective:
+----------
+Create a "Book Overview" webpage that introduces a book and outlines its contents.
+
+Requirements:
+-------------
+- Use the following HTML tags: <h1>, <h2>, <p>, <img>, <ol>, <ul>
+- Include:
+  - Book title (as a main heading)
+  - Cover image (with alt text)
+  - A short description of the book
+  - A nested list structure for chapters and sub-chapters:
+    - At least 3 chapters
+    - Each chapter must contain at least 2 sub-chapters
+
+Bonus:
+------
+- Make your table of contents visually easy to follow using indentation
+- Use meaningful names for chapters and sub-chapters  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Overview</title>
+</head>
+<body>
+<h1 align="center" style="background-color:black; color:bisque;"><i>Atomic Habits by James Clear</i></h1>   
+     <br><br>
+     <h4 style="background-color: blanchedalmond; text-align: center ;" ><u>Cover image</u><br>
+     <img src="img/Atomichabits.png" alt="Atomic Habits" ></h4>
+     <br>
+     <hr><hr>
+     <h3>A short description:</h3>
+     <p>Atomic Habits" by James Clear is a self-help book that emphasizes how small, consistent changes in daily behavior can lead to significant long-term results. The core idea is that improving just 1% every day can compound into major transformation over time. Rather than focusing on big goals, the book encourages building better systems and forming identity-based habits—where you align your habits with the person you want to become. It explains how habits are formed through a loop of cue, craving, response, and reward, and offers practical strategies to make good habits easier and bad habits harder. The book blends psychology, neuroscience, and real-life examples to show how anyone can design an environment and routine that supports lasting positive change.</p>
+     <p>For further Information <br>
+    Tap here 👉👉<a href="https://en.wikipedia.org/wiki/Atomic_Habits">Information</a></p>
+<hr> <hr> <hr> <br>
+     <h4>List</h4>
+     <hr>
+     <ol>
+        <li>The fundaments
+            <ul>
+                <li>The Surprising Power of Atomic Habits
+(Small changes make a big difference over time)</li>
+<li>
+ How Habits Shape Your Identity
+(Focus on identity-based habits rather than outcome-based ones)</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            The 4 Laws of Behavior Change
+            <ul>
+                <li> Make It Obvious
+(Use cues and habit stacking to build awareness)</li>
+                <li> Make It Attractive
+(Leverage dopamine and temptation bundling to increase motivation)</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            Advanced Habit Building
+            <ul>
+                <li>Make It Easy
+(Reduce friction and lower the barrier to start)</li>
+                <li> Make It Satisfying
+(Use immediate rewards and tracking to reinforce behavior)
+</li>
+            </ul>
+        </li>
+        <hr>
+        <li>
+            Breaking Bad Habits
+            <ul>
+                <li>Invert the 4 Laws
+(Make it invisible, unattractive, difficult, and unsatisfying)</li>
+                <li> How to Redesign Your Environment
+(Remove triggers and redesign cues to avoid temptations)</li>
+            </ul>
+        </li>
+        <hr>
+        <li>Staying Consistent and Making Habits Last
+            <ul> The Importance of Tracking and Accountability
+(Use habit trackers and accountability partners to stay on course)</ul>
+            <ul>Mastering the Art of Showing Up
+(Focus on consistency over perfection to build lasting habits)
+
+</ul>
+        </li>
+     </ol>
+    <hr><hr><hr><hr>
+<table border="3" cellspacing="2" width="600">
+    <thead>
+        <tr>
+            <th>Chapter</th>
+            <th>SubChapter</th>
+            <th>Title</th>
+        </tr>
+    </thead>
+   <tbody>
+    <tr align="center">
+    <td rowspan="2">1</td>
+    <td>1.1</td>
+    <td>The Surprising Power of Atomic Habits</td>
+    </tr>
+    <tr align="center">
+        <td>1.2</td>
+        <td>How Habits Shape Your Identity</td>
+    </tr>
+
+    <tr align="center">
+    <td rowspan="2">2</td>
+    <td>2.1</td>
+    <td>Make It Obvious</td>
+    </tr>
+    <tr align="center">
+        <td>2.2</td>
+        <td>Make It Attractive</td>
+    </tr>
+    
+    <tr align="center">
+    <td rowspan="2">3</td>
+    <td>3.1</td>
+    <td>Make It Easy</td>
+    </tr>
+    <tr align="center">
+        <td>3.2</td>
+        <td>Make It Satisfying</td>
+    </tr>
+    
+    <tr align="center">
+    <td rowspan="2">4</td>
+    <td>4.1</td>
+    <td>Invert the 4 Laws</td>
+    </tr>
+    <tr align="center">
+        <td>4.2</td>
+        <td>How to Redesign Your Environment</td>
+    </tr>
+    
+    <tr align="center">
+    <td rowspan="2">5</td>
+    <td>5.1</td>
+    <td>The Importance of Tracking and Accountability</td>
+    </tr>
+    <tr align="center">
+        <td>5.2</td>
+        <td>Mastering the Art of Showing Up</td>
+    </tr>
+    
+   </tbody>
+</table>
+</body>
+</html>

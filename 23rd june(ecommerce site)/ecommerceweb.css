@@ -1,0 +1,449 @@
+.navone{
+            width:100%;
+            background-color: darkslateblue;
+            height:40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        .emailphone{
+            margin-left:30px ;
+            padding-left: 20px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .email{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            gap:4px;
+        }
+        .logo{
+            margin-right: 5px;
+            font-size:25px; 
+        }
+        .info{
+            font-size:15px;
+        }
+        .social{
+            margin-right: 30px;
+             width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            font-size: 25px;
+        }
+        .navtwo{
+            background-color: white;
+            width: 100%;
+            height:80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        .mainlogo{
+            font-family:Arial, Helvetica, sans-serif;
+        font-weight:500;
+            color: green;
+            font-size:60px;
+            margin-left:40px ;
+            margin-right: 10px;;
+    }
+    .About{
+        width:400px;
+        font-size:30px;
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:100px;
+        padding-right: 110px;
+    }
+    .About a{
+        color: black;
+        text-decoration: none;
+    }
+    .sidelogo{
+        width:220px;
+        margin-right: 40px;
+        font-size: 30px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     gap:45px;
+    }
+    .sidelogo a{
+        color: black;
+    }
+    .display{
+        width: 100%;
+        height:35%;
+        background-color:lightgray;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .displaytext{
+   width:35%;
+   height: 25%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+font-size:30px;
+margin-left:150px;
+      gap:20px;
+    }
+    .heading{
+       
+        width:100%;
+        height:65px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left:90px ;
+    }
+    .subhead{
+             width:90%;
+            height:40px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+           
+            
+}
+    .paradisplay{
+            width:90%; 
+            height:150px; 
+            display: flex;
+            align-items: center ;
+            justify-content:center;
+    }
+
+    .productcategories{
+        width: 100vw;
+        height:35%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .categoriestext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .categoriestextA{
+        font-size: 65px;
+       font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+    }
+    .categoriestextB{
+         padding-bottom:20px;
+         font-size: 25px;
+         font-family: "Alumni Sans Pinstripe", sans-serif;
+         font-weight: bold;
+        }
+        .productcategories{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: baseline;
+        }
+        .product1img{
+            width:400px;
+            height: 400px;
+            border: 1px solid black;
+            border-radius:250px;
+            background-image:url(img/category_img_01.jpg) ;
+            background-size: cover;
+        }
+         .product2img{
+            width:400px;
+            height: 400px;
+            border: 1px solid black;
+            border-radius:250px;
+            background-image:url(img/category_img_02.jpg) ;
+            background-size: cover;
+        }
+         .product3img{
+            width:400px;
+            height: 400px;
+            border: 1px solid black;
+            border-radius:250px;
+            background-image:url(img/category_img_03.jpg) ;
+            background-size: cover;
+        }
+        .product{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap:20px;
+            padding-bottom:80px;
+        }
+        .productName{
+         font-size: 25px;
+         font-weight:bold ;
+        }
+        .productShop{
+            width: 150px;
+            height: 50px;
+            border:1px solid black;
+            background-color: green;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 30px;
+            font-family: "Alumni Sans Pinstripe", sans-serif;
+            border-radius: 10px;
+       
+        }
+        .Feature{
+            width: 100vw;
+            height: 35%;
+            background-color: lightgray;
+              display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        .FeatureText{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap:0px;
+        }
+        .FeatureTextA{
+             font-size: 65px;
+       font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+        }
+        .FeatureTextB{
+            margin-top: 5pxpx;
+            padding-top: 0px;
+             padding-bottom:20px;
+         font-size: 25px;
+         font-family: "Alumni Sans Pinstripe", sans-serif;
+         font-weight: bold;
+        }
+        .FeatureCards{
+            width:100vw;
+             display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: baseline;
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+        }
+        .card{
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            
+            flex-direction: column;
+             width:350px;
+              height:550px;
+              background-color: white;
+        }
+        .square1{
+            width: 100%;
+            height:45%;
+            background-image: url(img/feature_prod_01.jpg);
+            background-size: cover;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+        .cardText{
+            width:90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            margin-top: 0px;
+            padding-top: 0px;
+            
+        }
+        .cardTextA{
+              font-size: 40px;
+         font-family: "Alumni Sans Pinstripe", sans-serif;
+         font-weight: bold;
+         margin-bottom: 0px;
+         padding-bottom: 0px;
+        }
+        .cardTextB{
+                          font-size: 25px;
+         font-family: "Alumni Sans Pinstripe", sans-serif;
+   font-weight:bold ;
+   color:black;
+         margin-top: 5px;
+        }
+        .reviewsCard{
+            color:gray
+        }
+        .square2{
+                 width: 100%;
+            height:45%;
+            background-image: url(img/feature_prod_02.jpg);
+            background-size: cover;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+        .square3{
+             width: 100%;
+            height:45%;
+            background-image: url(img/feature_prod_03.jpg);
+            background-size: cover;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+        .footerone{
+            width:100vw;
+            height:50%;
+            background-color:#2c2f3a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+        }
+        .mainfooterone{
+            width:80vw;
+            height: 35%;;
+            display: flex;
+            align-items: start;
+            justify-content: space-evenly;
+            flex-direction: row;
+            margin-right: 200px;
+            margin-left: 90px;
+        border-bottom: 1px solid black;
+        }
+         .footeroneShop{
+            width:15% ;
+            height:45%;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+          
+         }
+        .footeroneShop p{
+            color: green;
+                  font-size: 25px;
+   font-weight:bolder ;
+   margin-bottom: 0px;
+   
+        }
+        .footeroneShop a{
+            color:white;
+            text-decoration: none;  
+        }
+        .arrangement{
+            display: flex;
+            align-items: center;
+            gap:10px;
+        }
+        .footeroneProducts{
+            width:20%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-top:10px;
+  
+        }
+        .footeroneProducts p{
+            color: white;
+            margin-top: 0px;
+        }
+        .one{
+            font-size: 25px;
+            margin-bottom: 0px;
+            padding-top: 20px;
+        }
+        .two{
+            font-size: 25px;
+            margin-bottom: 0px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .items{
+           margin-bottom: 10px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+        }
+        .further{
+            width:25%;
+            display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: start;
+        }
+        .further p{
+            color: white;
+            margin-top: 0px;
+        }
+        .mainfootertwo{
+            width:80vw;
+            height: 35%;;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: none;
+            margin-bottom: 60px;
+            margin-top:20px ;
+            margin-right: 110px;
+        }
+        .logo1{
+            width:150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 25px;
+        }
+        .input{
+            height:35px;
+            background-color:#2c2f3a ;
+        }
+        .subscribe{
+            margin-left: 0px;
+            height:40px;
+            background-color: green;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .footertwo{
+            width:100vw;
+            height:55px;
+            background-color:#2c2f3a ;
+            margin-top: 0px;
+            color: white;
+            padding-top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            border-top:1px black solid ;
+        }
+        .footertwo p{
+            margin-left:40px ;
+        }
