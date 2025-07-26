@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to left,#0F828C,#78B9B5,#78B9B5) ;
+
+}
+
+.parent{
+    width: 70%;
+    height: 80%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+
+    .ex{
+        text-align: center;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+}
+
+.up{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.down{
+    width: 100%;
+    height: 55%;
+}
+
+/* .add-cash{
+    margin: 20px;
+} */
+
+.add-cash label{
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.add-cash input{
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 80px;
+    margin: 5px;
+}
+
+.add-cash button{
+    padding: 4px;
+    border-radius:8px ;
+    border:none ;
+    margin: 5px;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+ol{
+
+    margin-left: 80px;
+    overflow-y: scroll;
+    width: 90%;
+    
+}
+
+li{
+    margin: 12px;
+    color: #fff;
+    font-size: 22px;
+}
