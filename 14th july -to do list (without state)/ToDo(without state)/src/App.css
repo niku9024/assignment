@@ -1,0 +1,97 @@
+/* Reset some default
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Wrapper{
+     width: 100vw;
+      height:100vh;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     flex-direction: column;
+     gap: 20px;
+}
+body {
+  height: 100vh;
+  width:100vw;
+  background: #f0f2f5;
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #4a90e2;
+  user-select: none;
+}
+
+.list-section {
+  background: #e9f0fd;
+  margin-bottom: 30px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #c3d1f8;
+  text-align: left;
+  transition: background 0.3s ease;
+}
+
+.list-section:hover {
+  background: #d6e3fe;
+}
+
+.list-section h2 {
+  font-size: 1.8rem;
+  color: #2c5daa;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 6px;
+  user-select: text;
+}
+
+
+.todo-item {
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgb(74 144 226 / 0.15);
+  cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todo-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 20px rgb(74 144 226 / 0.25);
+}
+
+
+.todo-item > p:first-child {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+  user-select: text;
+}
+
+.todo-description {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  user-select: text;
+  line-height: 1.3;
+}
+
+
